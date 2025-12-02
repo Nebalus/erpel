@@ -41,7 +41,7 @@ export const ServiceSchema = z.object({
 
 export type Service = z.infer<typeof ServiceSchema>;
 
-export const BackgroundModeSchema = z.enum([BackgroundMode.Color, BackgroundMode.Wallpaper]);
+export const BackgroundModeSchema = z.enum([BackgroundMode.Color, BackgroundMode.Wallpaper, BackgroundMode.Apod]);
 
 export const ConfigSchema = z.object({
     dateFormat: z.string(),

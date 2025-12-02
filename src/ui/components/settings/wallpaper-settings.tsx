@@ -9,7 +9,7 @@ import { ThemedSelect } from "@erpel/ui/components/theme/select";
 import { ThemedTextarea } from "@erpel/ui/components/theme/textarea";
 import { useStore } from "@erpel/ui/store/store";
 
-const modes = [BackgroundMode.Color, BackgroundMode.Wallpaper];
+const modes = [BackgroundMode.Color, BackgroundMode.Wallpaper, BackgroundMode.Apod];
 
 export function WallpaperSettings() {
     const { mode, setMode, setWallpapers, wallpapers } = useStore();

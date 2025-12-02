@@ -13,6 +13,7 @@ import web from "@erpel/resources/web.png?no-inline";
 export enum BackgroundMode {
     Color = "color",
     Wallpaper = "wallpaper",
+    Apod = "apod",
 }
 
 export const DEFAULT_SIDE_BAR_IS_OPEN = true;
